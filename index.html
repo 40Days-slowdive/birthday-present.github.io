@@ -14,32 +14,37 @@
 
 <article>
 
-<form action="mailto:blyejasper@gmail.com?subject=sign up" method="post" enctype="text/plain">
+<form class="form" action="mailto:imgqy6d9@gmail.com?subject=sign up" method="post" enctype="text/plain">
         <fieldset>
         <legend>
             <h2>sign up</h2>
         </legend>
         <label for="name">name:</label>
         <input type="text" class="name" placeholder="first name" name="name">
+
         <br>
+
         <label for="birthday:">birthday:</label>
         <input type="date" class="birthday" name="birthday">
+
         <br>
-        <button type="submit" class="signup" value="Send">sign up</button>
+
+        <button class="signup" value="Send" onclick="sendEmail()">sign up</button>
+
     </fieldset>
+  
 </form>
 
-</article>
-
-<div>
-
-<audio controls loop forever>
-    <source src="forever love.mp3" tyo="audio/mpeg">
+<audio controls autoplay loop class="audio">
+    <source src="forever love.mp3" type="audio/mpeg">
     <source src="forever love.ogg" type="audio/ogg">
     <source src="forever love.wav" type="audio/wav">
 </audio>
 
-</div>
+</article>
+
+<script src="script.js"></script>
+
 
 </body>
 
